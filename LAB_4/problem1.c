@@ -1,9 +1,9 @@
 #include <stdio.h>
 int main(){
-    int weekN;
+    int dayN;
     printf("Enter Day No.");
-    scanf("%d",&weekN);
-    switch (weekN)
+    scanf("%d",&dayN);
+    switch (dayN)
     {
     case 1:
         printf("Saturday");
