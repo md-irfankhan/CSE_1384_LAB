@@ -22,7 +22,17 @@ int main(){
         break;
     case '/':
         div=(float)num1/num2;
-        (div==(int)div)?printf("division=%.0f",div):printf("division=%.2f",div);
+        switch (num2!=0)
+        {
+        case 1:
+            (div==(int)div)?printf("division=%.0f",div):printf("division=%.2f",div);
+            break;
+        case 0:
+             printf("Can't be divide by zero.");
+             break;
+        
+        }
+        
         break;
     
     default:
