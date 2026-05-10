@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int ch;
+    char ch;
     printf("Enter any charecter:");
     scanf("%c",&ch);
     if(ch>='A' && ch<='Z' || ch>='a' && ch<='z'){

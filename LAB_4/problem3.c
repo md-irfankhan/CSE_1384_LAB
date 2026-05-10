@@ -13,6 +13,7 @@ int main(){
                break;
             case 0:
                 printf("Consonent");
+                break;
         }
         break;
     case 'a' ... 'z':
@@ -25,7 +26,7 @@ int main(){
         }
         break;  
     default:
-        prinntf("Invalid Input");
+        printf("Invalid Input");
         break;
     }
 }
