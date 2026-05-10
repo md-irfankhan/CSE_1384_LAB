@@ -27,7 +27,7 @@ int main(){
     add(arr1,arr2,arr3);
     printf("Array1:");
     display(arr1);
-    printf("\nArray1:");
+    printf("\nArray2:");
     display(arr2);
     printf("\nArray3:");
     display(arr3);
