@@ -10,7 +10,7 @@ int main(){
     while(l<=r){
         mid=(l+r)/2;
         if(target==arr[mid]){
-            printf("Value fount at index %d",mid);
+            printf("Value found at index %d",mid);
             break;
         }
         else if(target<arr[mid]){
